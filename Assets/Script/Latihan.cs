@@ -20,7 +20,7 @@ public class Latihan : MonoBehaviour
 
     void Awake()
     {
-        Debug.Log("Awake dipanggil");
+
     }
 
     void Start()
@@ -31,5 +31,10 @@ public class Latihan : MonoBehaviour
     void FixedUpdate()
     {
         Debug.Log("Waktu untuk FixedUpdate :" + Time.deltaTime);
+    }
+
+    void Coba()
+    {
+
     }
 }
